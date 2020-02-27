@@ -1,0 +1,64 @@
+#cedoc-widget{
+	background: #f5f5f5;
+	width: 340px;
+	position: fixed;
+	right: 30px;
+	bottom: 0px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	z-index: 100000;
+}
+#cedoc-widget #cedoc-widget-header{
+	padding: 15px;
+	background: #161B36;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+#cedoc-widget #cedoc-widget-header #cedoc-widget-header-title{
+	font-family: Helvetica;
+	font-size: 1.1em;
+	color: #fff;
+	font-weight: 600;
+}
+#cedoc-widget #cedoc-widget-header p{
+	font-family: Helvetica;
+	color: #fff;
+	font-size: .9em;
+	margin-bottom: 0px;
+}
+#cedoc-widget #cedoc-widget-body{
+	padding: 15px;
+}
+#cedoc-widget #cedoc-widget-body #cedoc-widget-body-search input{
+	font-family: Helvetica;
+  	color: #333;
+  	font-size: 1rem;
+	margin: 0 auto;
+  	padding: .7rem 1rem;
+  	border-radius: 0.2rem;
+  	background-color: rgb(255, 255, 255);
+  	border: none;
+  	width: 90%;
+  	display: block;
+  	border-bottom: 0.3rem solid transparent;
+  	transition: all 0.3s;
+}
+#cedoc-widget #cedoc-widget-body #cedoc-widget-body-search #cedoc-widget-body-btn-search {
+	margin-top: 20px;
+	margin-bottom: 55px;
+}
+#cedoc-widget #cedoc-widget-body #cedoc-widget-body-search #cedoc-widget-body-btn-search button{
+	background: #161B36;
+	padding: 9px;
+	padding-right: 25px;
+	padding-left: 25px;
+	font-family: Helvetica;
+	font-size: 1em;
+	font-weight: 400;
+	color: #fff;
+	float: right;
+	border-radius: 3px;
+}
+#cedoc-widget #cedoc-widget-body #cedoc-widget-body-search #cedoc-widget-body-btn-search button:hover{
+	cursor: pointer;
+}
