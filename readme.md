@@ -76,10 +76,18 @@ Para el paso 4, al iniciar nuestro widget, se aceptan 5 propiedades, una obligat
 
 Para usar como iframe, primero debe almacenar el proyecto en una dirección accesible por el sitio web en que se requiera insertar el ifreme, puede ser en una carpeta contenida en el sitio web, o en un servidor web. Luego, se debe hacer la llamada al archivo "iframe.html".
 
-Ejemplo:
+Ejemplo en uso local:
 
 ```html
 <iframe style="border: none" height="300px" width="300px" src="iframe.html" frameborder="0"></iframe>
+```
+
+Ejemplo realizando la llamada al sitio en un servidor web externo.
+
+** Para este caso utilizamos github pages **
+
+```html
+<iframe style="border: none" height="300px" width="300px" src="https://biosoftcl.github.io/cedoc-widget/iframe.html" frameborder="0"></iframe>
 ```
 
 En el archivo iframe.html, es posible realizar la configuración de los parámetros que soporta el widget.
