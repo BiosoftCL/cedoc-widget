@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo page</title>
+	<link rel="stylesheet" href="cedoc-widget.css">
+</head>
+<body>
+	<style>
+		#cedoc-widget{
+			position: relative !important;
+			margin: 0 auto;
+			width: 90%;
+			display: block;
+			right: auto;
+			left: auto;
+		}
+	</style>
+	<div id="cedoc-widget"></div>
+	<script src="cedoc-widget.js"></script>
+	<script>
+		cedocWidget.init({
+			url: 'http://centrodocumental.ide.geonodosoft.cl'
+		});
+	</script>
+</body>
+</html>

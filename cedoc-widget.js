@@ -39,7 +39,7 @@ const CedocWidgetClass = {
 		} else {
 			route = this.url + '/catalog?q=' + value;
 		}
-	    window.location.href = route;
+	    window.open(route);
 	}
 };
 
